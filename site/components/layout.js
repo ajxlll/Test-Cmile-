@@ -3,7 +3,7 @@ import Nav from "../components/navbar";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-export const siteTitle = "Crypto Miller";
+export const siteTitle = "Crypto Miler";
 
 export default function Layout({ children, home }) {
   return (
