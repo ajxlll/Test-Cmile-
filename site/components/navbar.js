@@ -4,13 +4,13 @@ import { siteTitle } from "./layout";
 
 export const LINKS = [
   { href: "/", label: "Home" },
-  { href: "/what", label: "What is Crypto Miler?" },
-  { href: "/roadmap", label: "Roadmap" },
-  { href: "/nft", label: "NFT's" },
-  { href: "/whitepaper", label: "Whitepaper" },
-  { href: "/defi", label: "DeFi" },
-  { href: "/team", label: "Team" },
-  { href: "/contact", label: "Contact" },
+  { href: "#what", label: "What is Crypto Miler?" },
+  { href: "#roadmap", label: "Roadmap" },
+  { href: "#nft", label: "NFT's" },
+  { href: "#whitepaper", label: "Whitepaper" },
+  { href: "#defi", label: "DeFi" },
+  { href: "#team", label: "Team" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export const menu = (
@@ -41,19 +41,8 @@ export default function Nav() {
 
   return (
     <>
-      <header className="flex flex-wrap text-blue-100 h-24 md:h-12 font-extrabold bg-gradient-to-r from-sky-500 to-indigo-500">
-        <div className="flex flex-wrap text-left pl-3">
-          <span className="align-sub">
-            <div className="flex flex-wrap text-left">
-              <span className="align-top">
-                <span className="hover:text-blue-400"></span>
-              </span>
-            </div>
-          </span>
-        </div>
-      </header>
-      <nav className="sticky z-40 top-0 flex bg-slate-900 opacity-90 flex-wrap items-center justify-between py-2 navbar-expand-lg text-black shadow">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <nav className="sticky z-40 top-0 flex bg-emerald-500 flex-wrap items-center justify-between py-2 navbar-expand-lg text-white">
+        <div className="container px-4 mx-auto my-10 flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
               <a className="text-white no-underline md:text-2xl text-xl font-bold hover:text-blue-400 px-2">
