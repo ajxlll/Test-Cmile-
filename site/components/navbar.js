@@ -7,7 +7,6 @@ export const LINKS = [
   { href: "#what", label: "What is Crypto Miler?" },
   { href: "#roadmap", label: "Roadmap" },
   { href: "#nft", label: "NFT's" },
-  { href: "#whitepaper", label: "Whitepaper" },
   { href: "#defi", label: "DeFi" },
   { href: "#team", label: "Team" },
   { href: "#contact", label: "Contact" },
