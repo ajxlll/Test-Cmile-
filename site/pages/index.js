@@ -3,6 +3,11 @@ import Nav from "../components/navbar";
 import Image from "next/image";
 import Header from "../components/header";
 import React, { useState } from "react";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
 export default function Home() {
   const [name, setName] = useState("");
@@ -134,26 +139,153 @@ export default function Home() {
                 </div>
               </section>
 
+              <a id="roadmap"></a>
               <section>
-                <a id="roadmap"></a>
-                <div className="mt-20 flex flex-wrap items-center flex-row-reverse">
-                  <div className="w-full sm:w-1/2 text-center px-6">
-                    <h1 className="mt-44 text-4xl text-black">
-                      Roadmap section
-                    </h1>
-                    <div className="relative flex flex-col max-w-lg break-words bg-gradient-to-r from-sky-500 to-indigo-500 w-full mb-8 shadow-2xl rounded-lg">
-                      <h3 className="text-3xl pt-6 text-white font-extrabold">
-                        Lorem Ipsum
-                      </h3>
-                      <div className="mt-6 text-xl px-3 pb-6 font-medium text-white leading-9">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Suspendisse bibendum, nunc non posuere consectetur,
-                        justo erat semper enim, non hendrerit dui odio id enim.
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-full sm:w-1/2 p-6"></div>
-                </div>
+                <h1 className="mt-44 text-center text-4xl text-black">
+                  Road Map
+                </h1>
+                <VerticalTimeline>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{
+                      background: "rgb(33, 150, 243)",
+                      color: "#fff",
+                    }}
+                    contentArrowStyle={{
+                      borderRight: "7px solid  rgb(33, 150, 243)",
+                    }}
+                    date="2011 - present"
+                    iconStyle={{
+                      background: "rgb(33, 150, 243)",
+                      color: "#fff",
+                    }}
+                    /*icon={<WorkIcon />} */
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Creative Director
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                      Miami, FL
+                    </h4>
+                    <p>
+                      Creative Direction, User Experience, Visual Design,
+                      Project Management, Team Leading
+                    </p>
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    date="2010 - 2011"
+                    iconStyle={{
+                      background: "rgb(33, 150, 243)",
+                      color: "#fff",
+                    }}
+                    /*icon={<WorkIcon />} */
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Art Director
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                      San Francisco, CA
+                    </h4>
+                    <p>
+                      Creative Direction, User Experience, Visual Design, SEO,
+                      Online Marketing
+                    </p>
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    date="2008 - 2010"
+                    iconStyle={{
+                      background: "rgb(33, 150, 243)",
+                      color: "#fff",
+                    }}
+                    /*icon={<WorkIcon />} */
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Web Designer
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                      Los Angeles, CA
+                    </h4>
+                    <p>User Experience, Visual Design</p>
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    date="2006 - 2008"
+                    iconStyle={{
+                      background: "rgb(33, 150, 243)",
+                      color: "#fff",
+                    }}
+                    /*icon={<WorkIcon />} */
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Web Designer
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                      San Francisco, CA
+                    </h4>
+                    <p>User Experience, Visual Design</p>
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    date="April 2013"
+                    iconStyle={{
+                      background: "rgb(233, 30, 99)",
+                      color: "#fff",
+                    }}
+                    /*icon={<WorkIcon />} */
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Content Marketing for Web, Mobile and Social Media
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                      Online Course
+                    </h4>
+                    <p>Strategy, Social Media</p>
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    date="November 2012"
+                    iconStyle={{
+                      background: "rgb(233, 30, 99)",
+                      color: "#fff",
+                    }}
+                    /*icon={<WorkIcon />} */
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Agile Development Scrum Master
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                      Certification
+                    </h4>
+                    <p>Creative Direction, User Experience, Visual Design</p>
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    date="2002 - 2006"
+                    iconStyle={{
+                      background: "rgb(233, 30, 99)",
+                      color: "#fff",
+                    }}
+                    /*icon={<WorkIcon />} */
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Bachelor of Science in Interactive Digital Media Visual
+                      Imaging
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                      Bachelor Degree
+                    </h4>
+                    <p>Creative Direction, Visual Design</p>
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    iconStyle={{
+                      background: "rgb(16, 204, 82)",
+                      color: "#fff",
+                    }}
+                    /*icon={<WorkIcon />} */
+                  />
+                </VerticalTimeline>
               </section>
 
               <section>
@@ -303,6 +435,11 @@ export default function Home() {
                         </p>
                       )}
                     </div>
+                    <span className="text-white hover:cursor-pointer ">
+                      <Link href="https://t.me/cryptomiler">
+                        <Image src="/telegram.png" width={80} height={80} />
+                      </Link>
+                    </span>
                   </div>
                 </div>
               </form>
@@ -323,7 +460,7 @@ export default function Home() {
                         by{" "}
                         <span className="underline cursor-pointer hover:text-blue-600">
                           <Link href="https://marcoagarcia.com">
-                          Marco A. Garcia
+                            Marco A. Garcia
                           </Link>
                         </span>
                       </p>
