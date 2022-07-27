@@ -123,16 +123,21 @@ export default function Home() {
                         "Why we invest in CRYPTO MILER?"
                       </p>
                       <p className="text-black font-light pt-8 leading-loose">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Suspendisse bibendum, nunc non posuere consectetur,
-                        justo erat semper enim, non hendrerit dui odio id enim.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Crypto miler was created for runners and walkers of all ages.
+                        It is a fun way to mix many of the fantastic things that we love 
+                        about crypto with the passion of running. Crypto Miler is a
+                        project that mixes fun art and fassion with running and walking.
+                        It gives you a way to build a avatars stats and style to fit 
+                        your liking all while boosting the ability to generate an income.
+                        
                       </p>
                       <p className="text-black font-light pt-8 leading-loose">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Suspendisse bibendum, nunc non posuere consectetur,
-                        justo erat semper enim, non hendrerit dui odio id enim.
-                        Lorem ipsum
+                        Crypto Miler has a way to entry for many runners and walkers.
+                        Earning can be done through our training system which you can
+                        read about int the whitepaper. Trainers can go on a open market
+                        and select a crypoto miler to train and share in the rewards if
+                          you do not own a avatar. This will help those who do not want 
+                          to buy thier way into the project.
                       </p>
                     </div>
                   </div>
@@ -162,19 +167,19 @@ export default function Home() {
                     /*icon={<WorkIcon />} */
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Creative Director
+                      Creat Landing Page.
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      Miami, FL
+                      Create landing page to give users a overview of the project.
                     </h4>
                     <p>
-                      Creative Direction, User Experience, Visual Design,
-                      Project Management, Team Leading
+                      Help user to understand how the project can help build wealth
+                      health and well being.
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2010 - 2011"
+                    date="6/2022 - 8/2022"
                     iconStyle={{
                       background: "rgb(33, 150, 243)",
                       color: "#fff",
@@ -182,19 +187,20 @@ export default function Home() {
                     /*icon={<WorkIcon />} */
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Art Director
+                      Develope social media Websites.
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      San Francisco, CA
+                      Development of Twitter page to help spread information.
+                      Create Youtube, Snapchat, and Koji page.
+                
                     </h4>
                     <p>
-                      Creative Direction, User Experience, Visual Design, SEO,
-                      Online Marketing
+                      
                     </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2008 - 2010"
+                    date="8/2022 - 9/2022"
                     iconStyle={{
                       background: "rgb(33, 150, 243)",
                       color: "#fff",
@@ -202,16 +208,18 @@ export default function Home() {
                     /*icon={<WorkIcon />} */
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Web Designer
+                      Creation of token.
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      Los Angeles, CA
+                      After token creation will be Whitelist giveaway
+                      and token sale.
+                     
                     </h4>
                     <p>User Experience, Visual Design</p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2006 - 2008"
+                    date="9/2022 - 11/2022"
                     iconStyle={{
                       background: "rgb(33, 150, 243)",
                       color: "#fff",
